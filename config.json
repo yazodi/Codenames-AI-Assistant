@@ -1,0 +1,14 @@
+```json
+{
+  "model_type": "embedding",
+  "library_name": "gensim",
+  "pipeline_tag": "text-classification",
+  "tags": [
+    "nlp",
+    "word2vec",
+    "streamlit",
+    "codenames",
+    "game",
+    "strategy"
+  ]
+}

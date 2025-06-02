@@ -1,0 +1,35 @@
+ Proje Özeti: Codenames AI Assistant
+Oyunda bir “spymaster” olarak çalışan yapay zeka modeli, elindeki kelimelere bakarak takımına ipuçları (tek bir kelime) vermeye çalışır. Amaç:
+🔹 Hedef kelimelerle ilişkili bir ipucu bulmak
+🔹 Rakip veya yasak kelimelere yaklaşmamak
+
+
+
+
+💡 Teknik Bileşenler:
+Bileşen	Açıklama
+Embedding	Word2Vec / FastText / GloVe
+Benzerlik Ölçümü	Cosine Similarity
+Strateji	Maksimum hedef benzerliği + minimum rakip/assassin uzaklığı
+Arayüz	Streamlit (görsel oyun tahtası + AI önerisi)
+
+
+
+🧠 Yapay Zeka Ne Yapacak?
+Hedef kelimeler listesi verilecek
+
+Yasaklı kelimeler (rakip + assassin) de belirtilecek
+
+Model, embedding'ler üzerinden tüm kelimeleri tarayacak
+
+Hem hedeflere en yakın, hem de yasaklılara en uzak olan en iyi ipucuyu önerecek
+
+📂 Başlangıç Planı:
+ ✅ Proje dosyası oluştur (codenames_ai)
+
+ Word2Vec vektörleri indir (hazır model)
+
+ Basit örnekle strateji algoritması geliştir
+
+ Streamlit arayüzü (girdi: hedef + yasaklı kelimeler → çıktı: ipucu)
+
